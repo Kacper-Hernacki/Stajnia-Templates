@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #c5c2c2;
+  background-color: #161515;
+}
+/*============= Navbar Style =============*/
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  background-color: rgba(0, 0, 0, .6)!important;
+}
+
+.navbar-brand {
+  height: 2rem;
+}
+
+.navbar-nav li{
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #a5a5a5;
+}
+
+/*============= Slider Style =============*/
+
+.carousel-item {
+  height: 100vh;
+}
+
+#home h1 {
+  margin-bottom: 15px;
+}
+
+#home h3 {
+  margin-bottom: 30px;
+}
+
+/*============= Ride Section =============*/
+
+#ride {
+  background: url(../img/bg-1.jpg);
+  /*============= Photo by Max Anderson on Unsplash =============*/
+  background-attachment: fixed;
+  background-size: cover;
+ 
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#ride h1 {
+  margin-bottom: 30px;
+}
+
+#ride p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/*============= Woltyzerka Section =============*/
+
+#woltyzerka {
+  background: url(../img/bg-2.jpg);
+  /*============= Photo by Ben Wick on Unsplash =============*/
+  background-attachment: fixed;
+  background-size: cover;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #474747;
+}
+
+#woltyzerka h1 {
+  margin-bottom: 30px;
+}
+
+#woltyzerka p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+
+/*============= O nas Section =============*/
+#about {
+  background: url(../img/bg-1.jpg);
+  /*============= Photo by Max Anderson on Unsplash =============*/
+  background-attachment: fixed;
+  background-size: cover;
+ 
+
+}
+
+#about h1{
+  margin-bottom: 40px;
+}
+
+#about h2{
+  margin-bottom: 40px;
+}
+
+#about p{
+  text-align: justify;
+}
+
+.Martyna {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.Martyna .about-photo{
+  margin-top: 10px;
+  width: 40%;
+}
+
+.Martyna .about-text{
+  width: 40%;
+}
+
+.Amadeusz {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.Amadeusz .about-photo{
+  width: 40%;
+}
+
+.Amadeusz .about-text{
+  width: 40%;
+}
+
+/*=========== O nas Section - Mobile ===========*/
+@media all and (max-width: 600px), (orientation: portrait) {
+
+  .Martyna {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  
+  .Martyna .about-photo{
+    width: 100%;
+  }
+  
+  .Martyna .about-text{
+    width: 90%;
+  }
+
+  .Amadeusz {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  
+  .Amadeusz .about-photo{
+    width: 100%;
+  }
+  
+  .Amadeusz .about-text{
+    width: 90%;
+  }
+}
+
+/*============= COURSE SECTION =============*/
+
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.btn-md {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.1rem;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
