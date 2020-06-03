@@ -249,7 +249,7 @@ body{
 #prices{
   background: url(img/bg-3.jpg);
   /*============= Photo by Alex Wigan on Unsplash =============*/
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
 
   padding: 50px;
@@ -396,6 +396,11 @@ body{
 }
 
 @media (max-width: 375px){
+
+  #prices{
+    background: url(img/bg-mobile-prices.jpg);
+    /*============= Photo by Melinda Derksen on Unsplash =============*/
+  }
 
   .head-text h3{
     font-size: 15px;
