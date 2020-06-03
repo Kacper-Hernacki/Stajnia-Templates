@@ -231,6 +231,19 @@ body{
   padding-bottom: 30px;
 }
 
+/*@media all and (min-width: 1013px), (orientation: portrait) {
+
+  .stefan-jezyk-photo{
+    width: 40%!important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .stefan-jezyk-photo p{
+    text-align: center;
+  }
+}*/
+
 /*=========== Price List ===========*/
 
 #prices{
@@ -405,6 +418,10 @@ body{
     font-size: 9px;
     padding: 5px;
   }
+
+  .feature-area{
+    font-size: 8px;
+  }
 }
 
 /*=========== Gallery ===========*/
@@ -436,6 +453,11 @@ body{
   height: 100%;
   width: 100%;
   overflow: hidden;
+}
+
+.photo-gallery .img:hover{
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(212, 193, 80, 0.9);
 }
 
 .photo-gallery .img:first-child{
@@ -540,9 +562,49 @@ body{
 
   .photo-gallery .img{
     position: relative;
-    height: 300px;
+    height: auto;
     width: 100%;
     overflow: hidden;
+  }
+}
+
+/*=========== Video ===========*/
+#video{
+  background: url(../img/bg-4.jpg);
+    /*============= Photo by Ben Wick on Unsplash =============*/
+    background-attachment: fixed;
+    background-size: cover;
+
+    padding: 30px;
+}
+
+.video-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.video{
+  width: 100%;
+}
+
+.c-video{
+  width: 40%;
+  max-width: 800px;
+  padding: 10px;
+}
+
+.c-video:hover{
+  cursor: pointer;
+}
+
+@media (max-width: 768px){
+  .video-container{
+    flex-direction: column;
+  }
+
+  .c-video{
+    width: 100%;
   }
 }
 /*=========== Contact ===========*/
