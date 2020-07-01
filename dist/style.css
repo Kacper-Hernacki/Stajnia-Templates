@@ -231,6 +231,39 @@ body{
   padding-bottom: 30px;
 }
 
+.mirabelka-wisienka{
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+.stefan-jezyk{
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+.korvetta{
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+.kamparetta{
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kamaro{
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+}
 /*@media all and (min-width: 1013px), (orientation: portrait) {
 
   .stefan-jezyk-photo{
@@ -502,6 +535,19 @@ body{
   .photo-gallery .img:nth-child(22){
     grid-column-start: span 2;
   }
+
+  .photo-gallery .img:nth-child(29){
+    grid-column-start: span 2;
+    grid-row-start: span 3;
+  }
+
+  .photo-gallery .img:nth-child(30){
+    grid-column-start: span 2;
+  }
+
+  .photo-gallery .img:nth-child(27){
+    grid-column-start: span 2;
+  }
 }
 
 @media (max-width: 900px){
@@ -544,6 +590,11 @@ body{
   .photo-gallery .img:first-child{
     grid-row-start: span 1;
     grid-column-start: span 1;
+  }
+
+  .photo-gallery .img:last-child{
+    grid-row-start: span 1;
+    grid-column-start: span 2;
   }
 
   .photo-gallery .img:nth-child(2n+2){
@@ -625,6 +676,17 @@ body{
   overflow: hidden;
 }
 
+.google-map-address{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.google-map-address h1{
+  padding-bottom: 20px;
+}
+
 .fa-map-marker, .fa-phone, .fa-envelope, .fa-facebook-square{
   font-size: 30px;
   margin-right: 10px;
@@ -640,7 +702,7 @@ body{
 input{
   padding: 10px;
   margin-top: 10px;
-  width: 70%;
+  width: 90%;
   background-color: #999;
   border: none;
   outline: none;
@@ -653,7 +715,7 @@ input::placeholder{
 textarea{
   padding: 10px;
   margin-top: 10px;
-  width: 70%;
+  width: 90%;
   background-color: #999;
   border: none;
   outline: none;
@@ -665,7 +727,7 @@ textarea::placeholder{
 
 .submit{
   margin-top: 10px;
-  width: 70%;
+  width: 90%;
   background-color: #161515;
   color: #fff;
   font-weight: 700;
@@ -715,7 +777,7 @@ textarea::placeholder{
   }
 
   .submit{
-    width: 70%;
+    width: 90%;
   }
 
   .contact-form{
@@ -730,10 +792,20 @@ textarea::placeholder{
   .form-container{
     width: 100%;
   }
+
+  .google-map-address{
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  iframe{
+    width: 100%;
+  }
 }
 
 
-/*============= COURSE SECTION =============*/
+
+/*============= settings =============*/
 
 .narrow {
   width: 75%;
@@ -765,21 +837,3 @@ textarea::placeholder{
   color: white;
 }
 
-/*============ BOOTSTRAP BREAK POINTS:
-
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-=============*/
