@@ -1,0 +1,22 @@
+{
+  "name": "stajnia-przysieka",
+  "version": "1.0.0",
+  "description": "Stamble templates before adding it to django project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kacper-Hernacki/Stajnia-Templates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kacper-Hernacki/Stajnia-Templates/issues"
+  },
+  "homepage": "https://github.com/Kacper-Hernacki/Stajnia-Templates#readme",
+  "dependencies": {
+    "smooth-scrollbar": "^8.5.2"
+  }
+}
