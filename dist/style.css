@@ -7,6 +7,9 @@ body{
   background-color: #161515;
 }
 /*============= Navbar Style =============*/
+.logo-img{
+  width: 50px;
+}
 
 .navbar {
   text-transform: uppercase;
