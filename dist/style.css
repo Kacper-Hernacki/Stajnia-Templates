@@ -433,6 +433,7 @@ body{
   #prices{
     background: url(img/bg-mobile-prices.jpg);
     /*============= Photo by Melinda Derksen on Unsplash =============*/
+    padding: 5px;
   }
 
   .head-text h3{
