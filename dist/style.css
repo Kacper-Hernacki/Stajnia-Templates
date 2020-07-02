@@ -807,6 +807,12 @@ textarea::placeholder{
 
 /*============= settings =============*/
 
+@media (max-width: 768px){
+  .narrow{
+    width: 95%;
+  }
+}
+
 .narrow {
   width: 75%;
   margin: 0 auto;
